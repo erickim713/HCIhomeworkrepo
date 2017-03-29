@@ -1,0 +1,66 @@
+/*
+body {
+    background-color: #eee;
+}
+*/
+
+/*your code here*/
+
+.center-div
+{
+     margin: auto;
+     width: 600px; 
+    white-space: nowrap;
+}
+body {
+    background-color: #eee;
+    font-family: 'Open Sans', sans-serif;
+}
+.tableheader{
+    text-align: left;
+}
+
+.wrong{
+    color: red;
+    text-align: left;
+    
+}
+
+.right{
+    color: blue;
+    text-align: left;
+}
+
+.wrong_capital{
+    text-decoration: line-through;
+    
+}
+
+.input{
+    text-align: left;
+}
+
+.header{
+    text-align: left;
+}
+
+table{
+    border-collapse:collapse;
+    border: auto;
+}
+
+
+td{
+    border-bottom: 1px solid #000080;
+    padding: 5px;
+    border-bottom-style: dotted;
+}
+
+
+th{
+    border-bottom: 2px solid black; 
+    padding: 5px;
+    border-bottom-style: solid;
+}
+
+
