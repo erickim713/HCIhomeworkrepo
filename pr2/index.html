@@ -7,10 +7,11 @@
     <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />  <link href="./capital_game.css" rel="stylesheet" />
   </head>
     <!--Your HTML here-->
-      <body onload="FocusOnInput()">
+      <body>
       <div class="center-div">
           <h1 class="header">Do you know the capital of this country?</h1>
-    <table>
+    <table id="table">
+      <thead>
       <tr class="tableheader">
           <th>Country</th>
           <th>Capital</th>
@@ -19,8 +20,14 @@
       <tr class="input">
           <td id="pr2__question"></td>
           <td><input type="text" name="fname" id="pr2__answer"></td>
-          <td><input type="submit" value="See Answer" id="pr2__submit" onclick="reset_field()"></td>
+          <td><input type="submit" class="submit_button" value="See Answer" id="pr2__submit"></td>
       </tr>
+      <tr>
+        <td colspan="3"><input type="radio" name ="select" id="all" checked>All<input type="radio" name ="select" id="correct">Correct Only<input type="radio" name ="select" id="wrong">Wrong Only</td>
+      </tr>
+      </thead>
+      <tbody>
+      </tbody>
 <!--
       <tr class="right">
           <td>Japan</td>
