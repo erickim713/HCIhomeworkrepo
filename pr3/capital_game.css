@@ -1,0 +1,68 @@
+body {
+    background-color: #eee;
+}
+
+#map {
+        height: 400px;
+        width: 100%;
+}
+.center-div
+{
+    margin: auto;
+    width: 600px;
+    white-space: nowrap;
+}
+
+.tableheader{
+    text-align: left;
+}
+
+h1.header{
+    font-family: 'Open Sans', sans-serif;
+    width: 100%
+}
+
+.wrong{
+    color: red;
+    text-align: left;
+}
+
+.right{
+    color: blue;
+    text-align: left;
+}
+.wrong_capital{
+    text-decoration: line-through;
+
+}
+
+.input{
+    text-align: left;
+}
+
+.header{
+    text-align: left;
+}
+
+table{
+    border-collapse:collapse;
+    border: auto;
+    width: 100%;
+}
+
+
+td{
+    border-bottom: 1px solid #000080;
+    padding: 5px;
+    border-bottom-style: solid;
+}
+
+
+th{
+    border-bottom: 2px solid black;
+    padding: 5px;
+    border-bottom-style: solid;
+}
+
+
+/*your code here*/

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Capital Game!</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link href="./capital_game.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+  <body>
+      <div class="center-div">
+      <h1 class="header">Do you know the capital of this country?</h1>
+      <table id="table">
+          <iframe id="googlemap"
+  width="100%"
+  height="400px"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBk1wjoohydgdxOmjGcld1AOUbbqM_hJhU&q=Space+Needle,Seattle+WA&maptype=satellite" allowfullscreen>
+</iframe>
+          <thead>
+              <tr class="tableheader">
+                  <th>Country</th>
+                  <th>Capital</th>
+                  <th>Answer</th>
+              </tr>
+              <tr class="input">
+                  <td id="pr2__question"></td>
+                  <td><input type="text" name="fname" id="pr2__answer"></td>
+                  <td><input type="submit" class="submit_button" value="See Answer" id="pr2__submit"></td>
+              </tr>
+              <tr>
+                  <td colspan="3"><input type="radio" name ="select" id="all" checked>All<input type="radio" name ="select" id="correct">Correct Only<input type="radio" name ="select" id="wrong">Wrong Only</td>
+              </tr>
+              <tr>
+                  <td colspan="3">
+                      <button id="pr3_clear">Clear</button>
+                  </td>
+              </tr>
+          </thead>
+          <tbody>
+
+          </tbody>
+    </table>
+    </div>
+    <!--Your HTML here-->
+    <script src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+    <script src="./country_capital_pairs.js"></script>
+    <script src="./capital_game.js"></script>
+  </body>
+</html>
