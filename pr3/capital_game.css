@@ -9,7 +9,7 @@ body {
 .center-div
 {
     margin: auto;
-    width: 600px; 
+    width: 600px;
     white-space: nowrap;
 }
 body {
@@ -23,7 +23,7 @@ body {
 .wrong{
     color: red;
     text-align: left;
-    
+
 }
 
 .right{
@@ -33,7 +33,11 @@ body {
 
 .wrong_capital{
     text-decoration: line-through;
-    
+
+}
+
+.question_slot:hover{
+    cursor: pointer;
 }
 
 .input{
@@ -60,9 +64,7 @@ td{
 
 
 th{
-    border-bottom: 2px solid black; 
+    border-bottom: 2px solid black;
     padding: 5px;
     border-bottom-style: solid;
 }
-
-
